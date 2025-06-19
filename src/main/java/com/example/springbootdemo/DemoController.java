@@ -16,4 +16,9 @@ public class DemoController {
     public String getData() {
         return "This is the first message on ECS";
     }
+
+    @GetMapping("/getMessage")
+    public String getMessage() {
+        return "This is the second message on ECS";
+    }
 }
