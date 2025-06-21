@@ -21,4 +21,9 @@ public class DemoController {
     public String getMessage() {
         return "This is the second message on ECS";
     }
+
+    @GetMapping("/ping")
+    public String ping() {
+        return "This is the third message on ECS";
+    }
 }
