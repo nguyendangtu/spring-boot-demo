@@ -22,8 +22,8 @@ public class DemoController {
         return "This is the second message on ECS";
     }
 
-    @GetMapping("/ping")
-    public String ping() {
-        return "This is the third message on ECS";
+    @GetMapping("/hi")
+    public String hi(){
+        return "Congratulation. You have deployed successful to AWS ECS via CodePipeline";
     }
 }
